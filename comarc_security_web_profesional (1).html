@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>COMARC SECURITY</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+body {
+    margin:0;
+    font-family:'Poppins',sans-serif;
+    background:#0f172a;
+    color:white;
+}
+header {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+    background:#020617;
+}
+header h1 {color:#38bdf8;margin:0;}
+nav a {
+    color:white;
+    margin-left:20px;
+    text-decoration:none;
+}
+.hero {
+    text-align:center;
+    padding:80px 20px;
+    background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.8)), url('https://images.unsplash.com/photo-1581090700227-1e8c6a6d5c63');
+    background-size:cover;
+}
+.hero h2 {font-size:2.5em;margin-bottom:10px;}
+.btn {
+    background:#25D366;
+    padding:15px 25px;
+    border-radius:10px;
+    color:white;
+    text-decoration:none;
+    display:inline-block;
+    margin-top:20px;
+}
+.services {padding:50px 20px;}
+.grid {
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+.card {
+    background:#1e293b;
+    padding:20px;
+    border-radius:15px;
+    transition:.3s;
+}
+.card:hover {transform:scale(1.05);}
+.coverage, .contact {
+    text-align:center;
+    padding:60px 20px;
+    background:#020617;
+}
+.whatsapp-float {
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#25D366;
+    padding:15px;
+    border-radius:50%;
+    text-decoration:none;
+    font-size:20px;
+}
+footer {
+    text-align:center;
+    padding:20px;
+    background:#020617;
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>COMARC SECURITY</h1>
+<nav>
+<a href="#servicios">Servicios</a>
+<a href="#cobertura">Cobertura</a>
+<a href="#contacto">Contacto</a>
+</nav>
+</header>
+
+<section class="hero">
+<h2>Protección Profesional para tu Hogar y Empresa</h2>
+<p>Especialistas en sistemas de seguridad en Ñuble y Santiago</p>
+<a class="btn" href="https://wa.me/56989838022" target="_blank">Contactar por WhatsApp</a>
+</section>
+
+<section id="servicios" class="services">
+<h2 style="text-align:center;">Nuestros Servicios</h2>
+<div class="grid">
+<div class="card"><h3>Cámaras de Seguridad</h3><p>Instalación y mantención de CCTV.</p></div>
+<div class="card"><h3>Alarmas</h3><p>Sistemas modernos de protección.</p></div>
+<div class="card"><h3>Corta Corriente</h3><p>Seguridad para vehículos.</p></div>
+<div class="card"><h3>Concertinas</h3><p>Protección perimetral avanzada.</p></div>
+<div class="card"><h3>Mantenimiento</h3><p>Soporte técnico especializado.</p></div>
+<div class="card"><h3>Asesoría</h3><p>Evaluación personalizada.</p></div>
+</div>
+</section>
+
+<section id="galeria" class="services">
+<h2 style="text-align:center;">Galería de Trabajos</h2>
+<div class="grid">
+<img src="https://via.placeholder.com/300" style="width:100%; border-radius:10px;">
+<img src="https://via.placeholder.com/300" style="width:100%; border-radius:10px;">
+<img src="https://via.placeholder.com/300" style="width:100%; border-radius:10px;">
+<img src="https://via.placeholder.com/300" style="width:100%; border-radius:10px;">
+</div>
+<p style="text-align:center; opacity:0.7;">(Aquí puedes reemplazar estas imágenes por fotos reales de tus trabajos)</p>
+</section>
+
+<section id="cobertura" class="coverage"> class="coverage">
+<h2>Cobertura</h2>
+<p>Región de Ñuble y Santiago de Chile</p>
+</section>
+
+<section id="contacto" class="contact">
+<h2>Contáctanos</h2>
+<p>WhatsApp: +56 9 8983 8022</p>
+<a class="btn" href="https://wa.me/56989838022" target="_blank">Enviar Mensaje</a>
+</section>
+
+<a href="https://wa.me/56989838022" class="whatsapp-float" target="_blank">💬</a>
+
+<footer>
+<p>© 2026 COMARC SECURITY</p>
+</footer>
+
+</body>
+</html>
